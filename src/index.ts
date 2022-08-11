@@ -4,11 +4,11 @@ import Dragon from './Dragon';
 import Monster from './Monster';
 
 const player1 = new Character('Luisa');
-player1.levelUp();
-player1.levelUp();
-player1.levelUp();
-player1.levelUp();
-player1.levelUp();
+
+for (let i = 0; i < 100; i += 1) {
+  player1.levelUp();
+}
+
 const player2 = new Character('Bob');
 const player3 = new Character('Lara');
 
